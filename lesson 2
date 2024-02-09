@@ -34,4 +34,6 @@ print(name + " " +str(age))
 
 print(birthday)
 
-birthday= "may29"
+print(may29)
+
+birthday=may29

@@ -1,0 +1,35 @@
+/* Assign different colors to paragraphs with specific IDs */
+#para1 {
+    color: red;
+}
+
+#para2 {
+    color: blue;
+}
+
+#para3 {
+    color: green;
+}
+
+#para4 {
+    color: orange;
+}
+
+#para5 {
+    color: purple;
+}
+
+/* Class for two paragraphs with the same color */
+.same-color1 {
+    color: yellow;
+}
+
+/* Another class for two paragraphs with the same color */
+.same-color2 {
+    color: pink;
+}
+
+/* Class for the last paragraph with a unique color */
+.unique-color {
+    color: brown;
+}

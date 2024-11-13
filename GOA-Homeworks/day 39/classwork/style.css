@@ -1,0 +1,28 @@
+/* Use Open Sans for the body text */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Use Raleway for main headings */
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+/* Use Merriweather for subheadings */
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/* Apply Roboto Slab for a strong look on paragraphs */
+p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+/* Use Pacifico for a fun, custom-styled text */
+.special-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}

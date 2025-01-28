@@ -1,0 +1,49 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Button styling */
+.contact-btn {
+    background-color: #008CBA; /* Blue color */
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    border-radius: 12px; /* Rounded corners */
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Button hover effect */
+.contact-btn:hover {
+    background-color: #005f73; /* Darker color on hover */
+    transform: scale(1.1); /* Increase size */
+}
+

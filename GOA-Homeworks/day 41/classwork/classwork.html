@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        /* ლინკის სტილები */
+        .custom-link {
+            text-decoration: underline;
+            color: blue;
+            font-size: 18px;
+            transition: color 0.3s, font-size 0.3s, text-decoration 0.3s;
+        }
+        .custom-link:hover {
+            text-decoration: none;
+            color: red;
+            font-size: 20px;
+        }
+
+        /* ღილაკის სტილები */
+        .custom-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+        }
+        .custom-button:hover {
+            background-color: #0056b3;
+            color: yellow;
+            font-size: 18px;
+        }
+
+        /* სურათის სტილები */
+        .image-container img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h2>ლინკი:</h2>
+    <a href="#" class="custom-link">დააჭირე აქ</a>
+
+    <h2>ღილაკი:</h2>
+    <button class="custom-button">დააჭირე</button>
+
+
+</body>
+</html>

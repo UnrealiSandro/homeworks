@@ -1,0 +1,162 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #111;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header {
+  border-bottom: 1px solid #eee;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.yellow {
+  background: #FFD100;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.email-input input {
+  padding: 10px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.students {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  background: #FFF5B5;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.world-stats img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.download-section {
+  background: #FFD100;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.download-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.store-buttons img {
+  height: 50px;
+  margin: 0 10px;
+}
+
+footer {
+  background: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+}
